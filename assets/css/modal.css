@@ -1,0 +1,85 @@
+#modal{
+    position: fixed;
+    top: 10%;
+    left: 25%;
+    min-width: 50vh;
+    max-width: 70vh;
+    min-height: 60vh;
+    max-height: 80vh;
+    background-color: #000;
+    border: 2px solid #0b4a53;
+    box-shadow: 0px 0px 20px #1bf0ff;
+    border-radius: 5px;
+    z-index: 1;
+    
+}
+
+
+#modal form > h2 {
+    color: #fff;
+    margin: 10px 20px 30px ;
+
+}
+
+#modal form > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#modal form > div > label {
+    color: #fff;
+    font-size: 18px;
+    margin: 4px 20px;
+}
+
+#modal form > div > input{
+    margin-right: 50px;
+    border: 2px solid #0b4a53;
+    width: 200px;
+    box-shadow: 0px 0px 5px #1bf0ff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.897);
+    border-inline: none;
+}
+
+#modal  .submitBtn {
+    display: block;
+    margin: 20px auto;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #0b4a53 ;
+    box-shadow: 0px 0px 5px #1bf0ff;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: ease all 0.5s;
+}
+
+#modal  .submitBtn:hover {
+    box-shadow: 0px 0px 15px #1bf0ff;
+    color: #1bf0ff;
+    padding: 0 25px;
+}
+
+#modal .closeBtn{
+    display: block;
+    position: absolute;
+    border-radius: 5px;
+    top: 1.5%;
+    right: 2%;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #0b4a53 ;
+    box-shadow: 0px 0px 5px #1bf0ff;
+    cursor: pointer;
+    transition: ease-in all 0.5s;
+    
+}
+
+#modal .closeBtn:hover{
+    color: #1bf0ff;
+    box-shadow: 0px 0px 10px #1bf0ff;
+}
