@@ -1,5 +1,5 @@
 import {Table} from './table.js'
-// import modal from './modal.js';
+
 
 
 
@@ -9,9 +9,9 @@ const fetchData = async () => {
         {method: 'GET'});
         const data = await response.json();
         const dataSlice = data.slice(0, 49)
-        // dataSlice[0]['Title'] = 'TEST'
+    
         const  myTable = new Table(dataSlice);
-        // console.log(myTable.getDataStorage());
+
 
         document.body.append(myTable.getTableElement())
 
